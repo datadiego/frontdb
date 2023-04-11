@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-family: 'Space Mono', monospace;
+  background-color: var(--back); 
+}
+
+@font-face {
+  font-family: 'linjapona';
+  src: url('./assets/linja-sike-5.otf');
+}
+
+:root{
+  --main: black;
+  --secondary: rgb(0, 255, 195);
+  --back: var(--secondary );
+  --border: var(--main);
+  --titlesBack: rgb(255, 99, 213);
+  --titlesFront: black;
+  --text: var(--main);
+  --shadow: var(--main);
+  --infoBack: rgb(255, 255, 152);
+}
+
+/* body{
+  background: linear-gradient(90deg, rgb(0, 42, 255) 0%, rgb(251, 255, 0) 100%);
+} */
